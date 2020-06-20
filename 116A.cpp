@@ -18,7 +18,6 @@ int main()
             maxi = inside;
         }
     }
-
     cout<<maxi<<"\n";
     return 0;
 }

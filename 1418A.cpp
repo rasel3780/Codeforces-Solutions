@@ -1,15 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    long long int x, y, k;
+long long int ceil_finder(long long int a, long long int b) {
+    return (a+b-1)/b;
+}
+
+int main() {
     int t;
     scanf("%d", &t);
     while(t--){
+        long long int x, y, k;
         scanf("%lld %lld %lld", &x, &y, &k);
-        double total_sticks_for_coal = (y*k)+k;
-        long long int ans = ceil((total_sticks_for_coal-1)/(x-1));
+        long long int ans = ceil_finder(k*y+k-1, x-1);
         printf("%lld\n", ans+k);
     }
     return 0;

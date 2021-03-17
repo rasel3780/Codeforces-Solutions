@@ -10,7 +10,6 @@ int main(){
     cin>>str;
 
     //transform(str.begin(), str.end(), str.begin(), ::tolower);
-
     for(int i=0; i<n; i++){
         if(str[i]>='A' && str[i]<='Z')
             str[i] = str[i]+32;

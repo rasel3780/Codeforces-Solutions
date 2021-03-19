@@ -21,8 +21,8 @@ void sol(){
 
 int main(){
     SPEED;
-    READ;
-    WRITE;
+    //READ;
+    //WRITE;
 
     int t=1;
     //cin>>t;

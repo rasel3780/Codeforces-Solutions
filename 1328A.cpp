@@ -1,14 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
+int main()
+{
     int a,b,t;
     cin>>t;
-    while(t--){
+    while(t--)
+    {
         cin>>a>>b;
-        if(a%b==0){
+        if(a%b==0)
+        {
             cout<<"0\n";
         }
-        else{
+        else
+        {
             cout<<b-(a%b)<<"\n";
         }
     }

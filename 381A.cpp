@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
-#define FILE freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout)
 using namespace std;
 
 int main(){
-    //FILE;
     int n, a;
     int sereja=0, dima=0;
     vector<int> v;
